@@ -1,0 +1,64 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+*.ipynb_checkpoints/
+
+# Virtual environment folders
+env/
+venv/
+.venv/
+
+# VS Code settings
+.vscode/
+
+# Environment variables file
+.env
+
+# Model files
+*.h5
+*.pt
+*.pth
+*.pb
+*.tflite
+*.joblib
+*.pkl
+
+# Logs and metadata
+*.log
+*.csv
+*.json
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Python egg and wheel
+*.egg-info/
+dist/
+build/
+
+# Cache folders
+.cache/
+pip-wheel-metadata/
+__pypackages__/
+
+# Conda environments
+*.conda
+*.yml
+
+# MyPy / Pyright
+.mypy_cache/
+.pyright/
+
+# Test and coverage
+coverage.xml
+htmlcov/
+*.cover
+.tox/
+
+# DVC or ML experiment tracking (if used)
+.dvc/
+mlruns/
