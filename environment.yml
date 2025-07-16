@@ -1,0 +1,22 @@
+name: Ai-agent
+channels:
+  - defaults
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.10
+  - jupyterlab
+  - ipykernel
+  - numpy
+  - pandas
+  - matplotlib
+  - scikit-learn
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pip
+  - pip:
+      - openai
+      - transformers
+      - requests
+      - python-dotenv
